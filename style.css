@@ -1,0 +1,83 @@
+:root {
+    --text: #799d79;
+    --bg: #584958;
+    --btn-bg: #bdcf91;
+    --nav-bg: rgba(146, 147, 72, 0.669);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: var(--text);
+    background-color: var(--bg);
+    font-family: 'Nerko One', cursive;
+}
+#game-diff{
+    border-radius: 20px;
+    color: var(--btn-bg);
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#board {
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.box {
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+}
+input{
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--btn-bg);
+    color: white;
+    height: 25px;
+    font-family: 'Nerko One', cursive;
+}
+#play{
+    padding: 10px 20px;
+    background-color: var(--btn-bg);
+    border: none;
+    border-radius: 20px;
+    color: var(--bg);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#restart {
+    padding: 10px 20px;
+    background-color: var(--btn-bg);
+    border: none;
+    border-radius: 20px;
+    color: var(--bg);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
